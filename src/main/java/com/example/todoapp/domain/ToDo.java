@@ -18,8 +18,5 @@ public class ToDo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @NotNull
-    private String userId;
-
-    public void setTodo(String todo) {
-    }
+    private String todo;
 }
